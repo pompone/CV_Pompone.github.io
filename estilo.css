@@ -46,6 +46,7 @@ html{
 }
 .contenedor-header header nav ul li a:hover{
     color: #1CB698;
+    box-shadow: 2px 5px 5px 0px rgba(71,207,207,0.72);
 }
 .nav-responsive{
     background-color: #1CB698;
@@ -547,6 +548,7 @@ html{
     padding: 10px;
     position: relative;
 }
+
 .contacto .col input, .contacto .col textarea{
     display: block;
     width: 100%;
@@ -617,7 +619,7 @@ footer{
 footer .redes{
     margin-bottom: 20px;
 }
-footer .redes a{
+footer .redes a {
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -644,6 +646,8 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
